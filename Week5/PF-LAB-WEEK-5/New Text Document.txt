@@ -1,0 +1,30 @@
+#include <iostream>
+#include <iostream>
+using namespace std;
+string evenishoddish(int num);
+main()
+{
+ int num;
+ cout << "Enter a number: ";
+ cin >> num;
+ evenishoddish(num);
+}  
+string evenishoddish(int num)
+{
+ int a, b, c, d, e, w, v, x, y;
+ a = num % 10;
+ w = num / 10;
+ b = w % 10;
+ v = w / 10;
+ c = v % 10;
+ x = v / 10;
+ d = x % 10;
+ y = x / 10;
+ e = y % 10;
+ cout << a << endl;
+ cout << b << endl;
+ cout << d << endl;
+ cout << e << endl;
+}
+ 
+ 
